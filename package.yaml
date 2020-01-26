@@ -1,0 +1,27 @@
+name:                hie-th-repro
+version:             0.1.0.0
+github:              "maksbotan/hie-th-repro"
+license:             BSD3
+author:              "Maxim Koltsov"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+description:         Please see the README on GitHub at <https://github.com/maksbotan/hie-th-test#readme>
+
+default-extensions:
+  - OverloadedStrings
+
+dependencies:
+- base >= 4.7 && < 5
+- aeson
+- bytestring
+- lens
+- lens-aeson
+- yaml
+- text
+- template-haskell
+
+library:
+  source-dirs: src
